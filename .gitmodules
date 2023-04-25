@@ -1,0 +1,6 @@
+[submodule "dont-disturbe-front-app"]
+	path = dont-disturbe-front-app
+	url = https://github.com/GuilhermeRoque/dont-disturbe-front-app.git
+[submodule "dont-disturb-data-service"]
+	path = dont-disturb-data-service
+	url = https://github.com/GuilhermeRoque/dont-disturb-data-service.git
