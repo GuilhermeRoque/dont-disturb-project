@@ -7,8 +7,6 @@ services:
      context: ./dont-disturbe-front-app
      dockerfile: ./Dockerfile
    image: guilhermeroque/front-end-dont-disturb
-   ports:
-    - "3000:3000"
 
   dont-disturb-service:
     build:
@@ -39,8 +37,6 @@ services:
 
   postgres:
     image: "postgres:15.2-alpine"
-    ports:
-      - "5432:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
